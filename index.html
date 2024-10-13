@@ -246,65 +246,87 @@
         }
 
         @media (max-width: 768px) {
+            body {
+                font-size: 0.9em;
+            }
+
             header {
-                padding: 50px 15px;
+                padding: 30px 10px;
+                text-align: center;
             }
 
             header h1 {
-                font-size: 2em;
+                font-size: 1.8em;
+                margin: 0;
             }
 
             header p {
                 font-size: 1em;
+                margin-top: 5px;
             }
 
             .content-section {
-                padding: 20px;
-                margin: 20px 10px;
+                padding: 15px;
+                margin: 10px 5px;
+                max-width: 100%;
+                box-shadow: none;
             }
 
             .content-section h2 {
                 font-size: 1.5em;
+                margin-bottom: 10px;
             }
 
             .comparison-chart {
                 flex-direction: column;
+                align-items: center;
             }
 
             .model {
+                width: 90%;
                 margin: 10px 0;
-                padding: 20px;
+                padding: 15px;
                 font-size: 1em;
             }
 
-            .install-command-container {
+            .install-command-container, .content-section p {
+                display: flex;
                 flex-direction: column;
-                align-items: stretch;
+                align-items: center;
             }
 
             .install-command {
                 font-size: 0.9em;
-                margin-bottom: 10px;
+                margin-bottom: 8px;
             }
 
             .copy-button {
-                padding: 8px;
+                padding: 8px 10px;
                 font-size: 0.8em;
+                width: 100%;
             }
 
             .button-link {
-                padding: 8px 15px;
-                font-size: 0.8em;
-                margin: 3px 0;
+                padding: 6px 8px;
+                font-size: 0.75em;
+                width: auto; 
+                margin: 5px auto; 
+                display: inline-block; 
+                white-space: nowrap; 
+                text-align: center;
             }
 
             footer {
-                padding: 15px;
-                font-size: 0.9em;
+                padding: 15px 10px;
+                font-size: 0.8em;
             }
 
             .joke-container {
                 display: none;
+            }
+            
+            header h1, header p, .content-section {
+                animation: none;
             }
         }
 
