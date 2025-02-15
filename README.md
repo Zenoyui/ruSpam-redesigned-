@@ -1,1 +1,1 @@
-# ruSpam-remix-
+# ruSpam-redesigned-
